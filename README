@@ -1,0 +1,27 @@
+README for swipely-pages
+
+Swipely Pages is a template for a Responsive Design-based web
+experience that scales easily up from dumb=phone to desktop, centered
+around swiping pages and panels from a central menu. Swipely Pages
+is not a finished web template, but an example of how this could
+be done; it will need to be heavily customized for every deployment.
+
+Swipely Pages is best used for web sites that have a limited number
+of pages that are all related to through a central menu. It arranges
+these pages based on the size of the view-port of the browser and
+the JavaScript capabilities.
+
+The strating page of a Swipely Pages site is index.html . It contains
+the opening paragraph and menu to go to the other pages.
+
+Dumbphones: The index.html is loaded, and the user can jump from
+the menu to any page, as usual.
+
+Small smarter phones that run JavaScript: the index.html page will
+load the first sub-page and show it in a swipeable panel.
+
+Tablets, larger viewports: index.html will use JavaScript to load
+all panels in a continuous ribbon. The user can either swipe to the
+desired page or jump from the menu. Desktops do not have touch and
+scrolling horizontally is not enabled, so the user goes to the next
+panel using the Next button.

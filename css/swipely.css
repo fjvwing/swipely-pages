@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url('http://subtlepatterns.com/patterns/graphy.png');
+}
+
+div#wrapper { 
+    position: fixed;
+    z-index: 5;
+    box-shadow: -1px 0 11px #999;
+    height: 100%;
+}
+
+
+#nav {
+   left: 0;
+   width: 80%; 
+   max-width: 300px;
+   color: #555;
+   position: absolute;
+   z-index: 0;
+   padding: .6em 20px;
+}
+
+#nav ul {
+    padding: 0;
+}
+
+#nav li {
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: .8em;
+    margin: 5px 0;
+    border: 2px solid #7d4f29;
+    background: #eeeeee;
+    border-radius: 15px;
+    background: url('http://subtlepatterns.com/patterns/wide_rectangles.png');
+
+}
+
+div.panel {
+    position: absolute;
+    border: 1px solid #ddd;
+    max-width: 800px;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+div.panel img {
+    max-width: 100%;
+}
+
+div.panel header {
+    margin: 0;
+    padding: .6em 1.2em;
+    box-shadow: 0px 1px 3px #aaa;
+    background: url('http://subtlepatterns.com/patterns/wide_rectangles.png');    
+}
+
+div.panel header a {
+    color: #7d4f29;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.panel header a#next {
+    display: block;
+    float: right;
+}
+
+div.panel article {
+    padding: .5em 1.2em;
+}
+
+div#panel,
+div#panel0 {
+    background: #fff;
+}
+div#panel1 {
+    background: #bbb;
+}
+div#panel2 {
+    background: #888;
+}
+div#panel3 {
+    color: white;
+    background: #444;
+}
+div#panel4 {
+    color: white;
+    background: #000;
+}
+
