@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Swipely-pages by fjvwing</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Swipely-pages</h1>
+        <p>A swipe-based responsive design experiment and template</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/fjvwing/swipely-pages" class="button fork"><strong>Fork On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/fjvwing/swipely-pages/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/fjvwing/swipely-pages/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <p>Swipely Pages is a template for a Responsive Design-based web
+experience that scales easily up from a limited phone to desktop, centered
+around swiping pages and panels from a central menu. Swipely Pages
+is not a finished web template, but an example of how this could
+be done; it will need to be heavily customized for every deployment.
+This experiment is based on <a href="http://www.torkiljohnsen.com/">Torkil Johnsen</a>'s <a href="https://github.com/torkiljohnsen/swipe">Swipe</a>.</p>
+
+<p>Swipely Pages is best used for web sites that have a limited number
+of pages that are all related to through a central menu. It arranges
+these pages based on the size of the view-port of the browser and
+the JavaScript capabilities.</p>
+
+<p>The starting page of a Swipely Pages site is index.html . It contains
+the opening paragraph and menu to go to the other pages.</p>
+
+<p><strong>Limited phones</strong> The index.html is loaded, and the user can jump from
+the menu to any page, as usual.</p>
+
+<p><strong>Small smarter phones that run JavaScript</strong> the index.html page will
+load the first sub-page and show it in a panel. Touch devices will
+let the user swipe the panel in and out of view, other devices can
+use the menu to swipe the panel into view.</p>
+
+<p><strong>Tablets, larger viewports</strong> index.html will use JavaScript to load
+all panels in a continuous ribbon. The user can either swipe to the
+desired page or jump from the menu. Desktops do not have touch and
+scrolling horizontally is not enabled, so the user goes to the next
+panel using the Next button.</p>
+
+<h2>ISSUES</h2>
+
+<ul>
+<li>Doesn't perform scrolling well on earlier Android devices.</li>
+<li>Horizontal scrolling to swipe should work on desktop, has currently not been coded in.</li>
+</ul>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/fjvwing">fjvwing</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
